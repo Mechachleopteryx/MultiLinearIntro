@@ -1,0 +1,11 @@
+Sales is the obvious one.
+Manufacturing - forecasting price of raw materials, forecasting demand to keep raw materials stock at a minimum
+Airlines - passenger numbers on various routes - subject to seasonality, exchange rates, short term trends, alternative supply, weather
+Accounting - cost/profit estimates
+Finance - how much to set aside for bad debt provision? Cash flow funding.
+Currency trading - long/medium/short term trends plus market responses to 'news' events
+Education - how many will enrol in various subjects next year?
+Councils - how will rateable value increase or decrease in the next 5/10 years - for budget provision
+Govt - traffic/transport - road building, traffic light design
+Web businesses - forecasting income from advertising, growth in internet population
+Every business!

@@ -1,0 +1,20 @@
+salary <- 50000*exp(rnorm(15))
+debt <- 100000*exp(rnorm(15))
+annual.return <- 0.02*debt - 0.04*salary
+df <- data.frame(salary,debt,annual.return)
+m1 <- lm(annual.return ~ salary, df)
+m2 <- lm(annual.return ~ debt, df)
+pictex("model1.tex")
+plot(salary, annual.return)
+abline(coef(m1))
+dev.off()
+pictex("model2.tex")
+plot(debt, annual.return)
+abline(coef(m2))
+dev.off()
+pictex("model3.tex")
+sp <- scatterplot3d(salary, debt, annual.return, pch = 16, highlight.3d = TRUE, angle =60)
+sp$plane3d(m)
+dev.off()
+
+
